@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/joaov/OneDrive/LeetCode",
-      "program": "c:/Users/joaov/OneDrive/LeetCode/build/Debug/outDebug",
+      "cwd": "c:/Users/joaov/Desktop/OneDrive/LeetCode",
+      "program": "c:/Users/joaov/Desktop/OneDrive/LeetCode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

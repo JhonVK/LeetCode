@@ -23,9 +23,7 @@ for(int i=0; i<heightSize; i++){
 #include <stdio.h>
 int main(){
     int tamanho=9;
-
     int vetor[9]={1,8,6,2,5,4,8,3,7};
-    
     int retorno=maxArea(vetor, tamanho);
 
     printf("%d", retorno);

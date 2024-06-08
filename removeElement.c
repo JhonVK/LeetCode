@@ -11,7 +11,6 @@ int removeElement(int* nums, int numsSize, int val) {
             numsSize--;
             i--;
         }
-        
     }
     return numsSize;
 }

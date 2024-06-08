@@ -8,6 +8,6 @@ for(int i=0; i<numsSize;i++){
     if(nums[i]<target){
         posicReal++;
     }
-}
+ }
 return posicReal;
 }

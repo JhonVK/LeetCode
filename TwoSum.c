@@ -8,7 +8,6 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
                 *returnSize=2;
                 return retorno;
             }
-
         }
     }
     return 0;

@@ -5,7 +5,6 @@
  *     struct ListNode *next;
  * };
  */
-
  //Using Tortoise and Hare Algorithm
 bool hasCycle(struct ListNode *head) {
     struct ListNode *fast = head, *slow = head;

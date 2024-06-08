@@ -40,5 +40,6 @@ int main(){
     int retorno = romanToInt(string);
     printf("Resultado: %d \n", retorno);
     free(string);
+    
     return 0;
 }

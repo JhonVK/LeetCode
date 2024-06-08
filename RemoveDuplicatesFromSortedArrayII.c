@@ -2,7 +2,6 @@ int removeDuplicates(int *nums, int numsSize) {
     if (numsSize==0)
         return 0;
     int tamanhoAtual=numsSize, duplicados=0;
-
     for(int i=1; i<tamanhoAtual; i++){
         if(nums[i]==nums[i-1]){
             duplicados++;

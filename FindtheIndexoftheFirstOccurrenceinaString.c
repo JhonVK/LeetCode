@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <string.h>
-
 int strStr(char* haystack, char* needle) {
 
     if (strlen(needle) == 0) {

@@ -1,3 +1,5 @@
+#include <stdbool.h>
+#include <stdio.h>
 bool lemonadeChange(int* bills, int billsSize) {
 int cash_5=0, cash_10=0;
 
@@ -23,4 +25,17 @@ int cash_5=0, cash_10=0;
         }
     }
     return true;
+}
+
+int main() {
+    // Exemplo de uso da função
+    int bills[] = {5, 10, 20, 5, 5};
+    int size = sizeof(bills) / sizeof(bills[0]);
+    bool result = lemonadeChange(bills, size);
+    if (result) {
+        printf("e possivel dar o troco .\n");
+    } else {
+        printf("Nao e possivel dar o troco.\n");
+    }
+    return 0;
 }

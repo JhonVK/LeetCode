@@ -1,3 +1,4 @@
+//o código funciona mas falha no caso 57 pois passa do tempo limite, testei o caso no testcase e deu certo, mas o tempo é ridiculamente alto no caso de um grande dado, 1000ms
 int maximumGain(char* s, int x, int y) {
     
    int maior=0;

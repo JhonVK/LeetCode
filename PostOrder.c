@@ -27,7 +27,6 @@ void listar(struct TreeNode* root, int* returnSize, int **vetor) {
         if (*returnSize % 10 == 0) {  
             *vetor = realloc(*vetor, (*returnSize + 10) * sizeof(int));
         }
-
         (*vetor)[(*returnSize)++] = root->val;
     }
 }

@@ -57,6 +57,7 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "Tarefa1AED.C": "cpp"
+    "Tarefa1AED.C": "cpp",
+    "RangeSumBST.C": "cpp"
   }
 }

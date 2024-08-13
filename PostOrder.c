@@ -16,7 +16,7 @@ int* postorderTraversal(struct TreeNode* root, int* returnSize) {
     }
     int *vetor=(int *)malloc(sizeof(int)*10);
     listar(root, returnSize, &vetor);
-    
+
     return vetor;
 }
 void listar(struct TreeNode* root, int* returnSize, int **vetor) {

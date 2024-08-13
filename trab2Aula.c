@@ -34,10 +34,8 @@ int maximumGain(char* s, int x, int y) {
             maior+=y;
             }
         }
-         return maior;
-         
+         return maior;  
     }else if(y>x){
- 
     for(int i=0; i<tamanhoString; i++){
         if((s[i]=='b' && s[i+1]=='a')){
             for(int j=i; j<tamanhoString-1; j++){

@@ -13,7 +13,6 @@ int sum(struct TreeNode *root, int sum1){
     }else{
         sum1=sum1*2+root->val;
     }   
-
     if(!root->left && !root->right){
         return sum1;
     }

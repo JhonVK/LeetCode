@@ -5,7 +5,6 @@ bool canConstruct(char* ransomNote, char* magazine) {
     for(int i = 0; magazine[i] != '\0'; i++) {
         letters[magazine[i]]++;
     }
-    
     // Verifica se cada letra da ransomNote está disponível na magazine
     for(int i = 0; ransomNote[i] != '\0'; i++) {
         if(--letters[ransomNote[i]] < 0) {
